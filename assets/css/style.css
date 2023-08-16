@@ -387,6 +387,10 @@ footer p{font-size: 12px;}
   transform: unset !important;
 }
 
+.attention a{
+	color: #101010;
+	text-decoration: underline;
+}
 
 /*---------------------------------------------SPver--------------------------------------*/
 @media screen and (max-width: 769px){
