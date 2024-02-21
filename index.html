@@ -45,16 +45,28 @@ j=d.createElement(s),dl=l!=‘dataLayer’?‘&l=‘+l:‘’;j.async=true;j.src
 	<script src="assets/js/modaal.min.js"></script>
 	<script src="assets/js/slick.min.js"></script>
 	<script src="assets/js/function.js"></script>
+	<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Sans+JP:wght@400;700&display=swap');
+  </style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSL9SM9"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-	<header class="is-pc">
-		<div class="header-inner">
-		<img class="mt-10 mb-10" src="assets/img/header_logo.png" alt="コードベース君津">
-		<a class="header_cv_btn mt-10 mb-10" href="mailto:info@teamfly.jp?subject=コードベース君津へのお問い合わせ"><div>ご予約・お問い合わせはこちら</div></a>
+	<header>
+		<img src="assets/img/header_menu.png" class="is-sp header-menu">
+		<div class="header-inner sp-menu">
+		<img class="header-logo is-pc" src="assets/img/header_logo.png" alt="コードベース君津">
+		<img class="header-logo is-sp" src="assets/img/header_logo_sp.png" alt="コードベース君津">
+		<img class="header-close is-sp " src="assets/img/header_close.png" alt="コードベース君津">
+			<div class="header-nav">
+				<a class="is-active" href="/">TOP</a>
+				<a href="/news/">NEWS</a>
+				<a href="/facility/">施設紹介</a>
+				<a href="/course/">コース</a>
+				<a href="mailto:info@cb-k.net?subject=%E3%80%90%E3%82%B3%E3%83%BC%E3%83%89%E3%83%99%E3%83%BC%E3%82%B9%E3%82%AD%E3%83%9F%E3%83%84%E3%80%91%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&body=%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%9A%0D%0A%E9%9B%BB%E8%A9%B1%E7%95%AA%E5%8F%B7%EF%BC%9A%0D%0A%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%EF%BC%9A" class="contact">お問い合わせ</a>
+			</div>
 		</div>
 	</header>
 	<div class="mv">
@@ -64,34 +76,129 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="mv_inner">
 				<img class="logo mv_fade" src="assets/img/mv_logo.png" alt="コードベース君津">
 				<h1><img class="statement mv_fade" src ="assets/img/mv_state.png" alt="ー 新たなる可能性を創り出す基地 ー"></h1>
-				<img class="open is-pc mv_fade" src ="assets/img/mv_open_pc.png" alt="2023.05.19 NEW OPEN">
-				<img class="open is-sp mv_fade" src ="assets/img/mv_open_sp.png" alt="2023.05.19 NEW OPEN">
 			</div>
 
 	</div>
-	<div class="sp-cv is-sp">
-		<a class="sp-cv-btn" href="mailto:info@teamfly.jp?subject=コードベース君津へのお問い合わせ"><div>ご予約・お問い合わせはこちら</div></a>
-	</div>
+	<a href="https://coubic.com/cbk" target="_blank" class="is-pc pc-cv cta">
+		<p>施設のご予約</p>
+	</a>
 	<!--メイン-->
 	<main>
-		<section id="about" class="fadein fadein-bottom">
-			<div class="about">
-				<img class="is-pc" src="assets/img/section_logo.png" alt="コードベース君津について">
-				<div class="about-text">
-					<h2 class="mb-10">新たなる可能性を創り出す基地</h2>
-					<hr>
-					<p class="mt-20">
-						コードベース キミツは閉校となった学校を、<span>「新しい時代に必要となる資質や能力を学べる場所」</span>として再生させます。人材育成や研究・実験の場所として活用していく中で、地域に根ざしたコミュニティが形成していきながら、新しい技術を学ぶための設備や環境を整えていきます。<br><br>参画される企業・団体・個人同士での様々な交流できるこの場所では、協力し合える仲間と出会うことで、新たなコラボレーションが生みだしていきます。<br><br>進行の礎になる場所として、コードベース キミツで得たスキルをもとに、<br class="is-pc">社会に新たな一歩を踏み出していくことができる「コラボレーション基地」を目指します。
-					</p>
-				</div>
+		<!--ニュース-->
+		<section id="news" class="fadein fadein-bottom">
+			<div class="content-inner">
+				<h2>
+					<span class="h2-jp">最新ニュース</span>
+					<span class="h2-en">NEWS</span>
+				</h2>
+				<ul class="news-contents">
+					<li class="news-list">
+						<a href="/news/20240221/">
+							<div class="news-thumbnail">
+								<img src="/assets/img/news/20240221/main.jpg">
+								<img class="news-arrow" src="assets/img/news_arrow_s.png">
+						</div>
+							<p class="news-title">村のピザ屋と提携し、暖かいピザを講習やイベント時に届けてくれるサービス「CODEBASE EATS」の実証実験を開始</p>
+						</a>
+						<ul class="news-tag">
+							<li>お知らせ</li>
+						</ul>
+						<p class="news-date">2024.2.21</p>
+					</li>
+					<li class="news-list">
+						<a href="/news/20240220/">
+							<div class="news-thumbnail">
+								<img src="/assets/img/news/20240220/main.jpg">
+								<img class="news-arrow" src="assets/img/news_arrow_s.png">
+						</div>
+							<p class="news-title">skycodeの監修による、コードベースキミツオリジナルのドローン講習を開始します</p>
+						</a>
+						<ul class="news-tag">
+							<li>イベント</li>
+							<li>お知らせ</li>
+						</ul>
+						<p class="news-date">2024.2.20</p>
+					</li>
+				</ul>
+				<a class="link-btn-green" href="/news/">ニュース一覧はこちら</a>
 			</div>
-			<!--<div class="about-movie">
-				<video class="mv_bg" src="assets/movie/PC_MV.mp4" autoplay loop muted></video>
-			</div>-->
 		</section>
 
-		<section id="facility">
-			<h2 class="fadein fadein-bottom">施設紹介</h2>
+	<!--about-->
+		<section id="about" class="fadein fadein-bottom">
+			<div class="about-bg">
+				<img class="is-pc" src="assets/img/about_bg.png">
+				<img class="is-sp" src="assets/img/about_bg_sp.png">
+				<div class="content-inner about-content">
+					<div class="about">
+						<img class="is-tab-invisible" src="assets/img/logo_wt.png" alt="コードベース君津について">
+						<div class="about-text">
+							<h2>新たなる可能性を<br class="is-sp">創り出す基地</h2>
+							<p>コードベース キミツは閉校となった学校を、「新しい時代に必要となる資質や能力を学べる場所」として再生させます。人材育成や研究・実験の場所として活用していく中で、地域に根ざしたコミュニティが形成していきながら、新しい技術を学ぶための設備や環境を整えていきます。</p>
+							<p>参画される企業・団体・個人同士での様々な交流できるこの場所では、協力し合える仲間と出会うことで、新たなコラボレーションが生みだしていきます。</p>
+							<p>進行の礎になる場所として、コードベース キミツで得たスキルをもとに、社会に新たな一歩を踏み出していくことができる「コラボレーション基地」を目指します。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	<!--コース-->
+	<section id="course" class="fadein fadein-bottom">
+		<div class="content-inner">
+			<h2>
+					<span class="h2-jp">開催中のコース</span>
+					<span class="h2-en">COURSE</span>
+				</h2>
+				<ul class="course-content">
+					<li class="course-list">
+						<img class="counrse-no" src="assets/img/course_01.svg">
+						<a href="/course/trial/">
+						<div class="course-bg">
+							<img src="assets/img/course01.png" alt="ドローン体験会">
+							<div class="course-detail">
+								<h3>体験会</h3>
+								<span></span>
+								<p>ドローンについての講習を受け、<br>様々な飛ばし方を体験するイベント</p>
+							</div>
+						</div></a>
+					</li>
+					<li class="course-list">
+						<img class="counrse-no" src="assets/img/course_02.svg">
+						<a href="/course/beginner/">
+						<div class="course-bg">
+							<img src="assets/img/course02.png" alt="ビギナーコース">
+							<div class="course-detail">
+								<h3>ビギナーコース</h3>
+								<span></span>
+								<p>ドローンで映像を撮ろう！<br>飛行方法を学ぼう！</p>
+							</div>
+						</div></a>
+					</li>
+					<li class="course-list">
+						<img class="counrse-no" src="assets/img/course_03.svg">
+						<a href="/course/stepup/">
+						<div class="course-bg">
+							<img src="assets/img/course03.png" alt="ステップアップコース">
+							<div class="course-detail">
+								<h3>ステップアップ<br class="is-tab">コース</h3>
+								<span></span>
+								<p>ドローンの申請と<br>安全飛行を学ぼう！</p>
+							</div>
+						</div></a>
+					</li>
+				</ul>
+				<a class="link-btn-green" href="/course/">コース一覧はこちら</a>
+		</div>
+	</section>
+
+<!--施設紹介-->
+	<section id="facility" class="fadein fadein-bottom">
+		<div class="content-inner">
+			<h2>
+					<span class="h2-jp">施設紹介</span>
+					<span class="h2-en">FACILITIES</span>
+			</h2>
 			<!--モデリング-->
 			<div class="sketchfab-embed-wrapper fadein fadein-bottom" style="position: relative; height:0px; width: 100%; padding-top: 56.25%;">
 				<iframe title="コードベースキミツ" frameborder="0" style="position:absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/dd655b5e220147c984249bcc0ab278fc/embed"> </iframe>
@@ -100,7 +207,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="column-wrapper fadein fadein-bottom">
 				<div class="column-1">
 					<img class="is-pc" src="assets/img/class_01.png" alt="グラウンド">
-					<p>ドローン練習するための十分なスペースがあるので安心してフライトすることができるグラウンドです。<br class="is-pc">全面でも半面のみでも使用することができますので、ご利用の内容によって使い分けすることが可能です。</p>
+					<p>ドローンの飛行に十分な広さがあるグラウンド。人口集中地区外に位置し、安心して飛行いただけます。<br>講習で半面を使うもよし、全面貸切で検証に使うもよし。利用目的に応じて広さを選択できます。<br>夜間の練習も可能な照明設備が付帯します。</p>
+					<p>1面の広さ　約2500㎡<br>テニスコート9.5面分</p>
 				</div>
 				<div class="column-2">
 					<!--sp見出し--><img class="is-sp sp-class-h2" src="assets/img/class_01.png" alt="グラウンド">
@@ -111,7 +219,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="column-wrapper fadein fadein-bottom">
 				<div class="column-1">
 					<img class="is-pc" src="assets/img/class_02.png" alt="体育館">
-					<p>雨の日でもドローンが飛ばせるように、屋内でも十分なスペースを確保できる体育館があります。<br class="is-pc">ライセンス取得用のコースも用意しているので、目的に合わせた練習が可能です。</p>
+					<p>屋内飛行を前提とした講習や、雨天時や日差しの強い時期でも安心して飛行させることができる体育館を併設しています。<br>企業向け講習など、日程調整等が大変な場合はあらかじめグラウンドに加えて体育館もご予約いただくことをお勧めします。<br>東体育館（旧小学校体育館）と西体育館（旧中学校体育館）の２棟を保有しています。</p>
 				</div>
 				<div class="column-2">
 					<!--sp見出し--><img class="is-sp sp-class-h2" src="assets/img/class_02.png" alt="体育館">
@@ -122,7 +230,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="column-wrapper fadein fadein-bottom">
 				<div class="column-1">
 					<img class="is-pc" src="assets/img/class_03.png" alt="教室">
-					<p>講習やセミナー用として座学ができる場所も用意しております。<br class="is-pc">黒板の他にもモニター等の設備も充実しており、勉強するための学習支援ツールが揃っています。</p>
+					<p>座学講習やセミナーの実施はもちろん、グラウンドに面しており休憩場所や荷物置き場としてもご活用いただけます。<br>机、椅子、黒板、エアコンなど備え付けの設備はそのままご利用いただけます。小学校から引き継いだ備品を生かしており、どこか懐かしい気持ちになること間違いなしです。</p>
 				</div>
 				<div class="column-2">
 					<!--sp見出し--><img class="is-sp sp-class-h2" src="assets/img/class_03.png" alt="教室">
@@ -132,107 +240,104 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 			<div class="column-wrapper fadein fadein-bottom">
 				<div class="column-1">
-					<img class="is-pc" src="assets/img/class_04.png" alt="多目的室">
-					<p>多目的室では、参加者、スタッフ、企業の方々が交流できる場所です。<br class="is-pc">リモートワークや食事の等でも利用が可能で、いろんな方とコミュニケーションを取ることが出来ます。</p>
+					<img class="is-pc" src="assets/img/class_04.png" alt="特別教室">
+					<p>教室よりも広い特別教室では座学講習だけではなく、備え付けの長机等を活用して企業向け研修やワークショップなどを実施することも可能です。<br>コミュニケーションの場として、講習参加者様のお食事や交流会の場所としてもご活用いただけます。</p>
 				</div>
 				<div class="column-2">
-					<!--sp見出し--><img class="is-sp sp-class-h2" src="assets/img/class_04.png" alt="多目的室">
-					<img class="room-img" src="assets/img/facility04.png" alt="多目的室">
+					<!--sp見出し--><img class="is-sp sp-class-h2" src="assets/img/class_04.png" alt="特別教室">
+					<img class="room-img" src="assets/img/facility04.png" alt="特別教室">
 					<!--<video class="room-img" src="assets/movie/mv_pc.mov" autoplay loop muted></video>-->
 				</div>
 			</div>
+			<a class="link-btn-white" href="/facility/">施設利用の方はこちら</a>
+		</div>
 		</section>
 
-		<section id="price" class="fadein fadein-bottom">
-			<h2>料金表</h2>
-			<h3>グラウンド</h3>
-			<div class="slider-wrap">
-			  <ul class="slider-for slide01">
-			    <li><img src="assets/img/ground01.png" alt="グラウンド"></li>
-			  </ul>
-			</div>
-			<div class="price-box">
-				<div class="column-1">
-					<h4>貸切プラン：スクール利用</h4>
-					<p>全面利用：55,000円（税込）</p>
-					<p>1面　半日：27,500円（税込）</p>
-					<p>半面　半日：16,500円（税込）</p>
-				</div>
-				<div class="column-2">
-					<h4>合同利用：個人練習</h4>
-					<p>半日：3,300円（税込）</p>
-					<p>1日：5,500円（税込）</p>
-				</div>
-			</div>
-			<h3>体育館</h3>
-			<div class="slider-wrap">
-			  <ul class="slider-for slide02">
-			    <li><img src="assets/img/gym01.png" alt="体育館"></li>
-			  </ul>
-			</div>
-			<div class="price-box">
-				<div class="column-1">
-					<h4>貸切プラン：スクール利用</h4>
-					<p>全面利用：27,500円（税込）</p>
-				</div>
-				<div class="column-2">
-					<h4>合同利用：個人練習</h4>
-					<p>半日：3,300円（税込）</p>
-					<p>1日：5,500円（税込）</p>
-				</div>
-			</div>
-			<div class="attention">
-				<p>※グラウンドをお選びの際、当日雨天の場合は近隣の体育館を無償でご利用いただけます</p>
-					<p>※別途教室を使用していただくことも可能です</p>
-					<p>※施設利用規約は<a href="assets/pdf/terms.pdf" target="_blank">コチラ</a></p>
-			</div>
-			<div class="price-annual">
-				<h3>定期でご利用になりたい方へ</h3>
-				<p>定期的な施設のご利用いただく際には月額プランも用意させていただいております。</p>
-				<p>月額110,000円（税込み）</p>
-				<a class="cv-btn" href="mailto:info@teamfly.jp?subject=コードベース君津へのお問い合わせ">ご予約・お問い合わせはコチラ</a>
+<!--ギャラリー-->
+		<section id="gallery" class="fadein fadein-bottom">
+			<div class="content-inner">
+			<h2>
+					<span class="h2-jp">ギャラリー</span>
+					<span class="h2-en">GALLERY</span>
+			</h2>
+			<ul class="gallery-list">
+	          <li><a href="assets/img/gallery_001.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_001.png" alt="コードベース君津"><img class="gallery-btn" src="assets/img/gallery_btn.png"></a></li>
+	          <li><a href="assets/img/gallery_002.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_002.png" alt="コードベース君津"><img class="gallery-btn" src="assets/img/gallery_btn.png"></a></li>
+	          <li><a href="assets/img/gallery_003.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_003.png" alt="コードベース君津"><img class="gallery-btn" src="assets/img/gallery_btn.png"></a></li>
+	          <li><a href="assets/img/gallery_004.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_004.png" alt="コードベース君津コードベース君津"><img class="gallery-btn" src="assets/img/gallery_btn.png"></a></li>
+	          <li><a href="assets/img/gallery_005.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_005.png" alt="コードベース君津"><img class="gallery-btn" src="assets/img/gallery_btn.png"></a></li>
+	          <li><a href="assets/img/gallery_006.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_006.png" alt="コードベース君津"><img class="gallery-btn" src="assets/img/gallery_btn.png"></a></li>
+	          <li><a href="assets/img/gallery_007.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_007.png" alt="コードベース君津"><img class="gallery-btn" src="assets/img/gallery_btn.png"></a></li>
+	          <li><a href="assets/img/gallery_008.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_008.png" alt="コードベース君津"><img class="gallery-btn" src="assets/img/gallery_btn.png"></a></li>
+	          <li><a href="assets/img/gallery_009.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_009.png" alt="コードベース君津"><img class="gallery-btn" src="assets/img/gallery_btn.png"></a></li>
+        	</ul>
+      <div class="gallery-bg">
+    	</div>
+		</section>
+
+		<section id="membership" class="fadein fadein-bottom">
+			<div class="content-inner">
+				<h2>
+					<span class="h2-jp">プレミアム会員</span>
+					<span class="h2-en">PREMIUM</span>
+				</h2>
+				<p class="membership-text">たくさん利用するなら断然プレミアム会員がお得！<br>ドローンスクールの講習や個人練習などでご活用いただけます。</p>
+				<ul class="membership-content">
+					<li class="membership-list">
+						<h4>施設利用割引</h4>
+						<img src="/assets/img/membership04.png">
+						<p>施設利用時の割引<br class="is-pc">最大15％OFF！</p>
+					</li>
+					<li class="membership-list">
+						<h4>レンタル備品無料</h4>
+						<img src="/assets/img/membership02.png">
+						<p>レンタル備品の無料貸し出しOK！</p>
+						<small>※一部有料となります</small>
+					</li><li class="membership-list">
+						<h4>専有保管場所</h4>
+						<img src="/assets/img/membership03.png">
+						<p>機材や講習設備を現地に保管</p>
+						<small>※ゴールド、シルバーのみ</small>
+					</li>
+				</ul>
+				<a class="membership-rule-link" href="/assets/pdf/terms_membership.pdf" target="_blank">プレミアム会員の利用規約</a>
+				<a class="link-btn-white mail-link-btn link-disable" href="#">coming soon!</a>
+				<!--<p>※送信できない場合は<a href="" style="color:#fff;">0000.0000@0000.jp</a>へ<br class="is-sp">送信してください。</p>-->
+				<!--<div class="membership-additional">
+					<h4>メールでのお申し込みの際には<br class="is-sp">以下の内容を記載の上、<br class="is-sp">ご連絡をお願いします。</h4>
+					<p>件名：企業名</p>
+					<p>希望のメンバーシップグレード</p>
+				</div>-->
+
 			</div>
 		</section>
 
-		<section id="event" class="fadein fadein-bottom">
-			<h2>開催中のイベント・クラス</h2>
-			<div class="event">
+
+		<!--<section id="event" class="fadein fadein-bottom">
+			<div class="content-inner">
 				<a href="https://kddi.smartdrone.co.jp/academy/kimitsu" target="_blank" class="is-pc"><img src="assets/img/kddi_banner_pc1.png" alt="KDDIスマートドローンアカデミー君津校"></a>
 				<a href="https://kddi.smartdrone.co.jp/academy/kimitsu" target="_blank" class="is-sp"><img src="assets/img/kddi_banner_sp1.png" alt="KDDIスマートドローンアカデミー君津校"></a>
 			</div>
-		</section>
-
-<!--
-		<section id="faq" class="fadein fadein-bottom">
-			<h2>FAQ</h2>
-			<h3>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h3>
-			<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-			<hr>
-			<h3>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h3>
-			<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-			<hr>
-			<h3>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h3>
-			<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-			<hr>
-			<h3>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h3>
-			<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-		</section>
--->
+		</section>-->
 
 		<section id="company" class="fadein fadein-bottom">
-			<h2>運営会社</h2>
-			<div class="company-box">
-				<div class="column-1">
-					<a href="https://www.terracom.co.jp/" target="_blank"><img src="assets/img/terra.png" alt="株式会社テラ"></a>
+			<div class="content-inner">
+				<h2 class="h2-jp h2-sub">運営会社</h2>
+				<div class="company-box">
+					<div class="column-1">
+						<a href="https://www.terracom.co.jp/" target="_blank"><img src="assets/img/terra.png" alt="株式会社テラ"></a>
+					</div>
+					<div class="column-2">
+						<h4>株式会社テラ</h4>
+						<p>コードベースキミツの運営・管理・保守をしています</p>
 				</div>
-				<div class="column-2">
-					<h4>株式会社テラ</h4>
-					<p>コードベースキミツの運営・管理・保守をしています</p>
 			</div>
+	</div>
 		</section>
 
 		<section id="associate" class="fadein fadein-bottom">
-			<h2>協賛</h2>
+			<h2 class="h2-jp h2-sub">協賛</h2>
+			<div class="content-inner">
 			<div class="associate-box">
 				<ul>
 					<li><a href="https://kddi.smartdrone.co.jp/" target="_blank"><img src="assets/img/logo01.png" alt="KDDIスマートドローン株式会社"></a></li>
@@ -243,12 +348,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<li><a href="https://www.phaseone.com/" target="_blank"><img src="assets/img/logo06.png" alt="PHASE ONE"></a></li>
 				</ul>
 			</div>
+		</div>
 		</section>
 
 		<section id="access" class="fadein fadein-bottom">
+			<div class="content-inner">
+				<h2 class="h2-jp h2-sub">アクセス</h2>
 				<div class="access-box">
 					<div class="access-1">
-					<h2>アクセス</h2>
 						<p >住所：〒292-0503 千葉県君津市広岡1000<br>JR久留里線 上総松丘駅出口から徒歩約10分</p>
 						<p>お電話でのお問い合わせ<br><a href="tel:070-2646-4508">070-2646-4508</a><br>10:00〜17:00（土日祝・年末年始除く）</p>
 					</div>
@@ -256,22 +363,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104225.58041040818!2d139.92597185938374!3d35.2798983155125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022a9d229f9f043%3A0xbf5df5eaf53af4f1!2z44Kz44O844OJ44OZ44O844K544Kt44Of44OE!5e0!3m2!1sja!2sjp!4v1684113836734!5m2!1sja!2sjp" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
+			</div>
 		</section>
-
-		<section id="gallery" class="fadein fadein-bottom">
-			<h2>ギャラリー</h2>
-			<ul class="gallery-list">
-	          <li><a href="assets/img/gallery_001.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_001.png" alt="コードベース君津"></a></li>
-	          <li><a href="assets/img/gallery_002.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_002.png" alt="コードベース君津"></a></li>
-	          <li><a href="assets/img/gallery_003.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_003.png" alt="コードベース君津"></a></li>
-	          <li><a href="assets/img/gallery_004.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_004.png" alt="コードベース君津コードベース君津"></a></li>
-	          <li><a href="assets/img/gallery_005.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_005.png" alt="コードベース君津"></a></li>
-	          <li><a href="assets/img/gallery_006.png" data-group="gallery" class="gallery"><img src="assets/img/gallery_006.png" alt="コードベース君津"></a></li>
-        	</ul>
-		</section>
-
 	</main>
-	<footer>
+
+	<footer class="footer-top">
+		<a href="/"><img src="assets/img/footer_logo.png"></a>
+		<div class="footer-nav">
+			<a href="/news/">NEWS</a>
+			<a href="/facility/">施設紹介</a>
+			<a href="/course/">コース</a>
+		</div>
 		<p>Copyright © CODE BASE KIMITSU All Rights Reserved</p>
 	</footer>
 	<script>

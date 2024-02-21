@@ -50,3 +50,18 @@ $(function () {
     fade: true,
   });
 });
+
+
+//SPメニュー
+$(function () {
+$('.header-menu').click(function () {
+  $('.sp-menu').addClass('sp-menu-open');
+  $("body").css({ height: "100%", overflow: "hidden" });
+  });
+
+$('.header-close').click(function () {
+  $('.sp-menu').removeClass('sp-menu-open');
+  $("body").css({ height: "", overflow: "" });
+  });
+
+});
