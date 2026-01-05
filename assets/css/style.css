@@ -85,6 +85,23 @@ header .header-nav a.contact{
     background: #307F3D;
 }
 
+header .header-nav a.tel{
+    color: #fff;
+    border-radius: 20px;
+    background: #000;
+    position:relative;
+    padding-left:40px;
+}
+header .header-nav a.tel .tel-icon{
+    position:absolute;
+    top: 50%;
+    left: 6%;
+    width: 20px;
+    height: 20px;
+    transform: translatey(-50%);
+}
+
+
 .mv{
 	position: relative;
 	margin-bottom: 100px;
@@ -1271,6 +1288,20 @@ footer p{font-size: 12px;}
         border-radius: 40px;
         padding: 20px;
     }
+
+    header .header-nav a.tel{
+        color: #fff;
+        margin: 50px auto 0;
+        width: 80%;
+        background: #000;
+        border-radius: 40px;
+        padding: 20px;
+    }
+
+    header .header-nav a.tel .tel-icon{
+    width: 7vw;
+    height: 7vw;
+}
 
     header .sp-menu{
         pointer-events: none;
